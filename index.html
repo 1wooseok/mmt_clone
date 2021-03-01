@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+    <section class="init">
+        <h1>What is your name?</h1>
+        <form class="asking_form">
+            <input type="text" class="name_box">
+        </form>
+    </section>
+
+    <!------------------------------------------------------------------>
+
+    <section class="main none">
+        <div class="weather"></div>
+    <div class="something"></div>
+    <div class="clock">
+        <div class="myClock">00:00</div>
+        <div class="greeting_box">
+            <div class="greeting"></div>
+            <i class="fas fa-ellipsis-h more"></i>
+        </div>
+    </div>
+    <div class="mainFocus">
+        <h3 class="asking_main_focus"></h3>
+        <form class="todo_form">
+            <input class="main_box" type="text">
+        </form>
+    </div>
+    <div class="bottom">
+        <div class="settings">
+            <i class="fas fa-cog"></i>
+        </div>
+        <div class="quote"></div>
+        <div class="ToDos">ToDo</div>
+    </div>
+    </section>
+    <script src="init.js"></script>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="quote.js"></script>
+    <script src="mainToDo.js"></script>
+</body>
+</html>
